@@ -46,6 +46,6 @@ As a prerequisite, follow the instructions for installation for the [Matlab Plat
 
 In order to compile the GM segmentator, follow this steps:
 1. Clone this repository.
-2. (Optional) Download the corresponding [7Zip version](https://www.7-zip.org/download.html) for your SO and extract the content inside the provided `7zip` folder.
+2. (Optional) Download [7Zip standalone version](https://www.7-zip.org/download.html) for your SO and extract the content inside the provided `7zip` folder.
 3. Open the script `compile_segment_gm.m` in MATLAB and run it.
 4. The compiled version will be located in the `compiled` folder.
