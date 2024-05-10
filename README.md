@@ -7,17 +7,17 @@ This repository contains a Gray Matter(GM) segmentator implementation for the MA
     * [Standalone Version](#Standalone-Version)
     * [Matlab Platform](#Matlab-Platform)
 2. [How to run](#How-to-run)
-3. [Compile Standalone](#Compilation-Standalone)
+3. [Compile Standalone](#Compile-Standalone)
 
 ## Installation
 
 ### Standalone Version
 1. Download MATLAB Runtime version 9.5 (R2018b) from [the official site](https://www.mathworks.com/products/compiler/matlab-runtime.html) for your specific SO (Windows, Linux, Mac).
 2. Install the "MCR_R2018b" file downloaded.
-3. If you are using Windows, download the standalone executable version. Otherwise, compile it for your system following the steps described in [Compilation Section](#Compilation).
+3. If you are using Windows, [download the standalone version](https://github.com/hkulsgaard/SegmentGM/releases/tag/v0.1.0). Otherwise, compile it for your system following the steps described in the [Compile Standalone section](#Compile-Standalone).
 
 ### Matlab Platform
-1. Download and install the **Matlab 9.5 Matlab R2018b** (Recommended)
+1. Download and install **Matlab 9.5 Matlab R2018b** (Recommended)
 2. Download and install [**SPM12  v7771**](https://www.fil.ion.ucl.ac.uk/spm/software/download/) addon for Matlab.
 3. Download and install [**CAT12.9 (r2560)**](https://www.neuro.uni-jena.de/cat12/cat12_r2560.zip) toolbox for SPM.
 
@@ -42,7 +42,7 @@ This repository contains a Gray Matter(GM) segmentator implementation for the MA
 
 ## Compile Standalone
 
-As a prerequisite, follow the instructions for installation for the [Matlab Platform](#Matlab-Platform).
+As a prerequisite, follow the instructions for installation in the [Matlab Platform subsection](#Matlab-Platform).
 
 In order to compile the GM segmentator, follow this steps:
 1. Clone this repository.

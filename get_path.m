@@ -37,7 +37,11 @@ function path = get_path(id)
             path = fullfile("cat12_modules", "cat12_prepro_module.mat");
          
         case "7z"
-            path = fullfile("7zip", "7za.exe");
+            if ispc
+                path = fullfile("7zip", "7za.exe");
+            else
+                path = fullfile("7zip", "7zz");
+            end
         
         otherwise
             error("[ERROR]Unknown selected path")
